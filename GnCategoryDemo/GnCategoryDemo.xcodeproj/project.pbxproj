@@ -16,6 +16,12 @@
 		6D5CCFE52142219600ED6E6D /* GnCategoryDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5CCFE42142219600ED6E6D /* GnCategoryDemoUITests.swift */; };
 		6D5CCFF52142224A00ED6E6D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5CCFF42142224A00ED6E6D /* UIView+Extension.swift */; };
 		6D5CCFF7214224F600ED6E6D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6D5CCFF6214224F600ED6E6D /* LICENSE */; };
+		6D5CCFFA2142541600ED6E6D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5CCFF92142541600ED6E6D /* UIColor+Extension.swift */; };
+		6DD761C7214255F000817D88 /* UIButton+CountDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD761C6214255F000817D88 /* UIButton+CountDown.swift */; };
+		6DD761C92142564B00817D88 /* UICollectionViewCell+Expand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD761C82142564B00817D88 /* UICollectionViewCell+Expand.swift */; };
+		6DD761CB214256EA00817D88 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD761CA214256EA00817D88 /* UIViewController+Extension.swift */; };
+		6DD761CF2142607E00817D88 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD761CE2142607E00817D88 /* String+Extension.swift */; };
+		6DD761D12142641C00817D88 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD761D02142641C00817D88 /* Int+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		6D5CCFE62142219600ED6E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D5CCFF42142224A00ED6E6D /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		6D5CCFF6214224F600ED6E6D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6D5CCFF92142541600ED6E6D /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		6DD761C6214255F000817D88 /* UIButton+CountDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+CountDown.swift"; sourceTree = "<group>"; };
+		6DD761C82142564B00817D88 /* UICollectionViewCell+Expand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Expand.swift"; sourceTree = "<group>"; };
+		6DD761CA214256EA00817D88 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		6DD761CE2142607E00817D88 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		6DD761D02142641C00817D88 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +146,13 @@
 		6D5CCFF3214221D600ED6E6D /* GnCategory */ = {
 			isa = PBXGroup;
 			children = (
+				6DD761CA214256EA00817D88 /* UIViewController+Extension.swift */,
+				6DD761C82142564B00817D88 /* UICollectionViewCell+Expand.swift */,
+				6DD761C6214255F000817D88 /* UIButton+CountDown.swift */,
 				6D5CCFF42142224A00ED6E6D /* UIView+Extension.swift */,
+				6D5CCFF92142541600ED6E6D /* UIColor+Extension.swift */,
+				6DD761CE2142607E00817D88 /* String+Extension.swift */,
+				6DD761D02142641C00817D88 /* Int+Extension.swift */,
 			);
 			name = GnCategory;
 			path = ../GnCategory;
@@ -272,9 +290,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DD761CF2142607E00817D88 /* String+Extension.swift in Sources */,
+				6DD761C92142564B00817D88 /* UICollectionViewCell+Expand.swift in Sources */,
+				6DD761C7214255F000817D88 /* UIButton+CountDown.swift in Sources */,
+				6DD761D12142641C00817D88 /* Int+Extension.swift in Sources */,
 				6D5CCFC72142219400ED6E6D /* ViewController.swift in Sources */,
 				6D5CCFF52142224A00ED6E6D /* UIView+Extension.swift in Sources */,
 				6D5CCFC52142219400ED6E6D /* AppDelegate.swift in Sources */,
+				6DD761CB214256EA00817D88 /* UIViewController+Extension.swift in Sources */,
+				6D5CCFFA2142541600ED6E6D /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

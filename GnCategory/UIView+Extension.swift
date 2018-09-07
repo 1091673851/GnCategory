@@ -114,7 +114,31 @@ public extension UIView{
             layer.zPosition = newValue
         }
     }
-  
-   
+}
+
+extension UIView{
     
+    /// 给view添加宽高约束
+    ///
+    /// - Parameters:
+    ///   - width: 宽
+    ///   - height: 高
+    func addConstraintSize(width:CGFloat,height:CGFloat){
+        let width:NSLayoutConstraint = NSLayoutConstraint(item: self, attribute: .width, relatedBy:NSLayoutRelation.equal, toItem:nil, attribute:.notAnAttribute, multiplier:0.0, constant:width)
+        let height:NSLayoutConstraint = NSLayoutConstraint(item: self, attribute: .height, relatedBy:NSLayoutRelation.equal, toItem:nil, attribute:.notAnAttribute, multiplier:0.0, constant:height)
+        self.translatesAutoresizingMaskIntoConstraints = true
+        self.addConstraint(width)
+        self.addConstraint(height)
+    }
+}
+
+extension UIView {
+    /// 从xib加载view
+    static func loadViewFromNib() -> UIView {
+        if (Bundle.main.loadNibNamed("\(self)", owner: nil, options: nil)?.last != nil) {
+            return Bundle.main.loadNibNamed("\(self)", owner: nil, options: nil)?.last as! UIView
+        } else {
+            return self.init()
+        }
+    }
 }
