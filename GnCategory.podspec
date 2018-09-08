@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GnCategory"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A short description of GnCategory.1"
 
   # This description is used to generate tags and improve search results.
