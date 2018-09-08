@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GnCategory"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "A short description of GnCategory.1"
 
   # This description is used to generate tags and improve search results.
@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
                     工具使用的类扩展
+                    swift少量的类扩展
                    DESC
 
   s.homepage     = "https://github.com/1091673851/GnCategory"
