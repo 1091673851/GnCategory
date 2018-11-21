@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://www.xjyd0755.cn/iOS.xjyd_resigned.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>https://image.baidu.com/search/detail?ct=503316480&amp;z=0&amp;ipn=d&amp;word=include%20manifest%20for%20over-the-air&amp;step_word=&amp;hs=0&amp;pn=4&amp;spn=0&amp;di=118745153450&amp;pi=0&amp;rn=1&amp;tn=baiduimagedetail&amp;is=0%2C0&amp;istype=0&amp;ie=utf-8&amp;oe=utf-8&amp;in=&amp;cl=2&amp;lm=-1&amp;st=undefined&amp;cs=1312723935%2C3491921212&amp;os=3670516108%2C3175144998&amp;simid=0%2C0&amp;adpicid=0&amp;lpn=0&amp;ln=809&amp;fr=&amp;fmq=1542763884127_R&amp;fm=&amp;ic=undefined&amp;s=undefined&amp;se=&amp;sme=&amp;tab=0&amp;width=undefined&amp;height=undefined&amp;face=undefined&amp;ist=&amp;jit=&amp;cg=&amp;bdtype=0&amp;oriquery=&amp;objurl=http%3A%2F%2Fmedia.springernature.com%2Flw785%2Fspringer-static%2Fimage%2Fart%3A10.1007%2Fs40572-014-0019-7%2FMediaObjects%2F40572_2014_19_Fig1_HTML.gif&amp;fromurl=ippr_z2C%24qAzdH3FAzdH3Fstgh_z%26e3Bfr6tg2j6_z%26e3Bv54AzdH3Fw6ptvsjAzdH3F8a_z%26e3B8aa0AzdH3Ff9ac0d-a89-aa8l-0&amp;gsm=0&amp;rpstart=0&amp;rpnum=0&amp;islist=&amp;querylist=</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>https://image.baidu.com/search/detail?ct=503316480&amp;z=0&amp;ipn=d&amp;word=include%20manifest%20for%20over-the-air&amp;step_word=&amp;hs=0&amp;pn=4&amp;spn=0&amp;di=118745153450&amp;pi=0&amp;rn=1&amp;tn=baiduimagedetail&amp;is=0%2C0&amp;istype=0&amp;ie=utf-8&amp;oe=utf-8&amp;in=&amp;cl=2&amp;lm=-1&amp;st=undefined&amp;cs=1312723935%2C3491921212&amp;os=3670516108%2C3175144998&amp;simid=0%2C0&amp;adpicid=0&amp;lpn=0&amp;ln=809&amp;fr=&amp;fmq=1542763884127_R&amp;fm=&amp;ic=undefined&amp;s=undefined&amp;se=&amp;sme=&amp;tab=0&amp;width=undefined&amp;height=undefined&amp;face=undefined&amp;ist=&amp;jit=&amp;cg=&amp;bdtype=0&amp;oriquery=&amp;objurl=http%3A%2F%2Fmedia.springernature.com%2Flw785%2Fspringer-static%2Fimage%2Fart%3A10.1007%2Fs40572-014-0019-7%2FMediaObjects%2F40572_2014_19_Fig1_HTML.gif&amp;fromurl=ippr_z2C%24qAzdH3FAzdH3Fstgh_z%26e3Bfr6tg2j6_z%26e3Bv54AzdH3Fw6ptvsjAzdH3F8a_z%26e3B8aa0AzdH3Ff9ac0d-a89-aa8l-0&amp;gsm=0&amp;rpstart=0&amp;rpnum=0&amp;islist=&amp;querylist=</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.xianjinyidao</string>
+				<key>bundle-version</key>
+				<string>1.1</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>XianJinYiDap</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
